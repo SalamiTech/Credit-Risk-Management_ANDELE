@@ -11,6 +11,7 @@ contract AndeleRigester {
   uint phoneNumber;
   }
 
+
   mapping(address=>Users) public clients;
 
   address[] public usersList;
@@ -25,3 +26,9 @@ function getUserData() public view returns (address[] memory) {
     return usersList;
 }
 }
+/*
+Name 
+address
+{date:unit256(int), amount:(double),
+ transactionTpye:(String e.g salary, trnasfer), flow:(String)}
+*/
