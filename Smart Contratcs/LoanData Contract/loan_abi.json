@@ -1,0 +1,156 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_receivedFrom",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_how_the_money_was_used",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_guarantor",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_application_date",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_date_received",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_amount_applied",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_amout_recieved",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_payment_time_frame",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_payment_per_month",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_number_of_days_used_to_pay",
+				"type": "uint256"
+			}
+		],
+		"name": "addLoanData",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getUserLoanData",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "loanData",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "receivedFrom",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "how_the_money_was_used",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "guarantor",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "application_date",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "date_received",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount_applied",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amout_recieved",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "payment_time_frame",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "payment_per_month",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "number_of_days_used_to_pay",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "loanList",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
