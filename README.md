@@ -1,5 +1,5 @@
 
-# Credit Risk Management Project - Team Andele
+# Credit Risk Management Project (2022) - Team Andele 
 
 
 We're a team of developers from Ghana. The term ANDELE is an amalgamation of two words AND and ELE which means to connect everyone. As a team, we aim at becoming the bridge between financial institutions and their customers through the development of technologies.
